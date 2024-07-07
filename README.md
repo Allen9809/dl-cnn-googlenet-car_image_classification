@@ -16,7 +16,7 @@ This project focuses on classifying car images using the Stanford Car Dataset, l
 
 With these components, you can develop, test, and deploy a robust car image classification application.
 
-This project focuses on classifying car images using the Stanford Car Dataset, which consists of 16,185 images categorized into 196 classes based on Make, Model, and Year. The dataset is divided into 8,144 training images and 8,041 testing images.
+We focus on classifying car images using the Stanford Car Dataset, which consists of 16,185 images categorized into 196 classes based on Make, Model, and Year. The dataset is divided into 8,144 training images and 8,041 testing images.
 
 Given the challenge of limited images per class, the project employs transfer learning. A pretrained model from ImageNet is fine-tuned on the car dataset to develop a robust car classifier. This involves adjusting all layers of the model and replacing the final fully connected layer to suit the specific classification requirements.
 
