@@ -1,4 +1,5 @@
-# dl-cnn-googlenet-car_image_classification
-This project focuses on car image classification using the Stanford Car Dataset, which includes 16,185 images categorized into 196 classes based on Make, Model, and Year. The dataset is split into 8,144 training images and 8,041 testing images.
+This project focuses on classifying car images using the Stanford Car Dataset, which consists of 16,185 images categorized into 196 classes based on Make, Model, and Year. The dataset is divided into 8,144 training images and 8,041 testing images.
 
-Training a deep learning model directly on this dataset is challenging due to the limited number of images per class. To address this, the project utilizes transfer learning—a technique where a pretrained model from ImageNet is we fine-tuned on the car dataset. We aim to develop a car classifier by fine-tuning a pretrained model. All layers will be adjusted, and the final fully connected layer will be replaced for specific classification tasks.
+Given the challenge of limited images per class, the project employs transfer learning. A pretrained model from ImageNet is fine-tuned on the car dataset to develop a robust car classifier. This involves adjusting all layers of the model and replacing the final fully connected layer to suit the specific classification requirements.
+
+After fine-tuning the model and training it on the entire dataset, the model and necessary reference files were downloaded locally. A user-friendly interface was then created using Streamlit for local deployment, providing an intuitive platform to interact with the classifier.
